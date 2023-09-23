@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=DM+Sans:opsz@9..40&family=Inter&family=Poppins&family=Roboto:wght@300&family=Sofia+Sans:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  background-color: #000;
+  width: 100vw;
+  height: 76px;
+  padding: 25px 15px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  vertical-align: center;
+}
+.search {
+  width: 95vw;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-inline: auto;
+  margin-top: 25px;
+}
+#search-input {
+  border: 1px solid #000;
+  background: #d9d9d9;
+  padding-left: 20px;
+  width: 84%;
+}
+#search-input[placeholder] {
+  font-size: 24px;
+}
+#search-btn {
+  width: 15%;
+  background: #000;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btns {
+  width: 95vw;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-inline: auto;
+  margin-top: 25px;
+}
+.btns > button {
+  width: 15%;
+  height: 100%;
+  background: #000;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+table {
+  width: 95vw;
+  margin-inline: auto;
+  margin-top: 25px;
+}
+table,
+td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  background: #d9d9d9;
+}
+td {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 15px;
+}
+.secTable {
+  width: 95vw;
+  margin-inline: auto;
+  margin-top: 25px;
+  display: none;
+}
+secTable,
+td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  background: #d9d9d9;
+}
